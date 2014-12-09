@@ -1,0 +1,66 @@
+body {
+	background: #FFDEAD;
+
+}
+.content {
+	margin: 0 auto;
+	width: 40%;
+	height: 100%;
+	background: #FFE4C4;
+	padding: 10px 0px 0px 20px;
+}
+
+#name {
+	margin-left: 76px;
+}
+#surname {
+	margin-left: 42px;
+}
+social {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-image: url('media/sprites.png');
+    background-repeat: no-repeat;
+}
+
+.block_social {
+	float: left;
+}
+
+.social_twitter{
+	background: url(../media/sprites.png) no-repeat -34px 0;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 10px;
+}
+
+.social_fb{
+	background: url(../media/sprites.png) no-repeat 0 0;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 10px;
+}
+.social_skype {
+	background: url(../media/sprites.png) no-repeat -170px 0;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 10px;
+}
+.social_google {
+	background: url(../media/sprites.png) no-repeat -68px 0;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 10px;
+}
+.social_feeds {
+	background: url(../media/sprites.png) no-repeat -136px 0;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 10px;
+}
+.wrap {
+	margin: 0 auto;
+}

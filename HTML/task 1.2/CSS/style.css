@@ -1,0 +1,31 @@
+h1 {
+      text-align: center;
+      font-family: Tahoma;
+    }
+img {
+      float: left;
+      margin-right: 20px; 
+      width: 200px;
+    }
+.main {
+      width: 900px;
+      margin: 0 auto; 
+    }
+th {
+      padding: 1px 5px 1px 10px;
+      text-align: right;
+      background: #D3D3D3;
+    }
+hr {       
+      border: none;
+      background-color:#0000CD;
+      height: 1.6px;
+      color: #0000CD;
+    }
+td {
+      padding: 1px 5px 1px 8px;
+      border: 1px solid #000;
+    }
+th  {
+      border: 1px solid #000;
+    }

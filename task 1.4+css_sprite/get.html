@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>
+      Тег FORM, атрибут method
+    </title>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="block_social">  
+        <a href="http://twitter.com" target="_blank"><div class="social_twitter"></div></a>  
+        <a href="http://facebook.com" target="_blank"><div class="social_fb"></div></a>
+        <a href="http://skype.com" target="_blank"><div class="social_skype"></div></a>
+        <a href="http://google.com" target="_blank"><div class="social_google"></div></a>
+        <a href="http://feeds.feedburner.com/" target="_blank"><div class="social_feeds"></div></a>
+      </div>
+    <div class="content">
+      <form action="http://antonraby.com/oxagile/form.html" method="get">
+    <p>
+        <strong>
+           ФИО:
+        </strong>
+      </p>
+      <div class="blok1">
+        <label for="name"> Имя: </label>
+        <input placeholder="Ваше имя" name="name" id="name" >         
+      </div>
+      <p>
+        <label for="surname">Фамилия: </label>
+        <input placeholder="Ваша фамилия" name="surname" id="surname">        
+      </p>
+      <p>
+        <label for="bday"> Дата рождения:</label>
+        <input placeholder="Дата рождения" name="birthday" id="bday">         
+    </p>
+      
+    <p>
+        <strong>
+          Место учебы:
+        </strong>
+        <Br>
+   		<p> 
+          <input type="radio" name="LineOfBusiness" value="University" checked="checked" id="uni">
+          <label for="uni">Университет </label> 
+      </p>
+      <p>
+          <input type="radio" name="LineOfBusiness" value="School" id="sch">
+          <label for="sch">  Школа </label> 
+      </p>
+      <p>
+          <input type="radio" name="LineOfBusiness" value="Work" id="work">
+          <label for="work"> Работаю </label>
+      </p> 
+    </p>
+    
+   <p>      
+     <strong>
+      <label for="info"> Дополнительная информация о себе: </label> 
+     </strong>      
+      <br> <br>
+      <textarea name="comment" cols="40" rows="6" id="info">  </textarea>
+   </p>
+
+   <p>
+     <input type="submit" value="Отправить">
+     <input type="reset" value="Очистить">
+   </p>
+   </form>
+      </div>
+    </div>
+  </body>
+</html>

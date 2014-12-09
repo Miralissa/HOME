@@ -1,0 +1,238 @@
+.all {
+	width: 960px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+
+header img {
+	padding-left: 200px;
+}
+
+ul li {
+  display: block;
+  font-size:15px;
+  margin-right: 14px;
+  float:left;
+  margin-top: -10px;
+  }
+  ul li a span {
+    margin:5px 0px 5px 15px;
+    padding:4px 15px 6px 0px;
+    }
+    ul li a, ul li a span {
+     color: #000;
+      display: block;
+      text-decoration: none;
+      background: url(../media/over.gif) no-repeat 0 -30px;
+     padding:0px;
+      } 
+
+      ul li a:hover, ul li a:hover span {
+         background-color:#DBDBDB;
+      }
+    ul li a:hover {
+      background-position: top left;
+      cursor:pointer;
+    }
+  ul li a:hover span {
+    background-position: top right;
+    cursor:pointer;
+  }
+
+.menu { 	
+	height: 50px;
+	width: 500px;
+	float: right;
+	margin-top:25px;
+}
+
+.menu ul  {
+  float: right;
+}
+
+.fon {
+	position: relative;
+	background-image: url(../media/fon1.png);
+	height: 400px; 
+	text-align:center; 	
+}
+
+.texts {
+	position: absolute;
+	top: 50%;
+	left: 17%;
+	width: 65%;
+	text-align: center;
+}
+.texts h2,p {
+	color: #fff;
+}
+
+.texts h2 {
+  text-transform: capitalize;
+  font-size: 45px;
+  padding-bottom: 0px;
+}
+
+.about{
+    background-color: #fff;
+}
+.blog3{       
+   margin: auto 0;        
+   text-align: center;
+   color: #45494d;
+   font-size: 20px;
+    padding: 0px 0 15px 0;
+  }
+
+ .blog3 > p {        
+     color: #000;
+     text-transform: capitalize;
+    }
+    .blog3 > p:first-child{
+        color: #0ebfdd;
+        font-size: 45px;
+        text-transform: capitalize;
+   }
+
+ .team{
+    background-color:#00BFFF;        
+    margin: auto;        
+    text-align: center;
+    }
+    .team h2{
+        text-transform: capitalize;
+        font-size: 45px;
+        color: #fff;
+        padding: 50px 0 50px 0;
+    }
+    .team img{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        padding: 0 35px 0 35px;
+    }
+    .team-photo{
+        display: inline-block;
+        color: #fafafa;
+    }
+      .team-photo img+p{
+          font-size: 18px;
+          margin-top: 15px;
+      }
+    .team-photo p{
+        font-size: 14px;
+    }
+    .team> button{
+        background-color: #0ebfdd;
+        border-radius: 20px;
+        border: 1px solid #fff;
+        color: #fafafa;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 35px;
+        text-transform: uppercase;
+        margin: 95px 0 65px 0;
+        cursor: pointer;
+    }
+    .fotoLeft {
+    	float: left;
+    } 
+
+.ourServies {
+ height: 500px;
+ text-align: center;
+ background-color: #fff;
+}
+
+.services-text {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 120%;
+}
+
+.services-text div {
+ max-width: 316px;
+ display: inline-block;
+ position: relative;
+
+ /*float: left; */
+ //vertical-inline
+
+
+
+ text-align: left;
+ font-size: 80%;
+}
+
+.services-text img {
+ display: inline-block;
+ float: left;
+ margin: 25px 20px 0 0;
+}
+
+.services-text div p {
+ overflow: hidden;
+}
+.services-text > p:first-child {
+    text-align: center;
+    color: #0ebfdd;
+    font-size: 45px;
+     text-transform: capitalize;
+}
+
+ .services-text p {
+    color: #000;
+  }
+
+.footer{
+    background-color: #45494d;
+}
+    .inner-footer{
+        margin: 0 auto;
+        border-bottom: 2px solid #5a5e62;
+    }
+      .inner-footer  ul{
+          padding-top: 25px;
+      }
+    .fl-right {
+      float: right;
+      padding: 0px 55px 30px 0px;
+    }
+      .inner-footer  ul > li{
+          display: inline-block;
+          color: #d7dee4;
+          text-transform: uppercase;
+          font-size: 12px;
+          padding: 0 20px 25px 20px;
+      }
+      .right-menu > ul > li {
+          text-decoration: none;
+          color: #d7dee4;
+          padding-top: 20px;
+      }
+     .footer-social ul > li{
+          padding: 0 2px 0 2px;
+      }
+  .bottom-menu{
+      display: inline-block;
+      padding-bottom: 15px;
+      padding-left: 350px;
+    }
+      .bottom-menu > ul > li{
+          color: #d7dee4;
+          padding: 0 15px 0 10px;
+      }
+      .bottom-menu > ul > li{
+          color: #d7dee4;
+          text-decoration: none;
+      }
+
+   hr {
+    color:#686b6f; 
+    size:1px;
+    width:90%;
+   }
+    .vert {
+      border-right: solid 2px #686b6f; 
+    }
